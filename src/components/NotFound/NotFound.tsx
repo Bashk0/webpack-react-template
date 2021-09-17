@@ -1,5 +1,7 @@
 import { useHistory } from "react-router-dom";
 
+import "./notFound.scss";
+
 const NotFound = () => {
     const history = useHistory();
     setTimeout(() => history.push("/books"), 3000);
