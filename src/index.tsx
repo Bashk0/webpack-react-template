@@ -1,4 +1,12 @@
 import ReactDOM from "react-dom";
 import { App } from "./App";
+import { Books, StoreProvider } from "./store/store";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const store = new Books();
+
+ReactDOM.render(
+    <StoreProvider store={store}>
+        <App />
+    </StoreProvider>,
+    document.getElementById("root")
+);
