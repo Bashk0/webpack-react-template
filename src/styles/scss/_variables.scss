@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap);
+//!VARIABLES======================================================================================================
+$fontFamily: "Poppins", sans-serif;
+$fontSize: 16;
+$minWidth: 320px;
+$maxWidth: 1920; //Depends on the web design
+$maxWidthContainer: 1470; //Depends on the width of the container + 30 px beacuse of padding 0 15px
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 575.98;
+
+$mainColor: #000;
+
+//!VARIABLES======================================================================================================
